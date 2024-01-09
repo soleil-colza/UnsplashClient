@@ -72,5 +72,7 @@ dependencies {
 
     api("com.squareup.retrofit2:converter-moshi:$retrofit_version")
 
+    implementation("com.squareup.moshi:moshi-kotlin:1.14.0")
+
 
 }
