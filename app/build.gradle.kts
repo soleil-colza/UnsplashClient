@@ -66,4 +66,11 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    val retrofit_version = "2.9.0"
+    api("com.squareup.retrofit2:retrofit:$retrofit_version")
+
+    api("com.squareup.retrofit2:converter-moshi:$retrofit_version")
+
+
 }
